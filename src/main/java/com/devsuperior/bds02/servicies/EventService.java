@@ -25,7 +25,6 @@ public class EventService {
 		entity.setCity(new City(dto.getCityId(), null));
 		entity = repository.save(entity);
 		return new EventDTO(entity);
-		
 	}
 }
 		

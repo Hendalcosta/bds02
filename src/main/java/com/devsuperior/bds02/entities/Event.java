@@ -35,7 +35,7 @@ public class Event {
 		this.url = url;
 		this.city = city;
 	}
-
+	
 	public Long getId() {
 		return id;
 	}

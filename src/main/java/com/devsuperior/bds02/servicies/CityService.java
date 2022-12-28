@@ -54,10 +54,10 @@ public class CityService {
 			repository.deleteById(id);
 		}
 		catch (EmptyResultDataAccessException e) {
-
+		
 		}
 		catch (DataIntegrityViolationException e ) {
-		
+			
 		}
 
 	}
